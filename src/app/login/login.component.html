@@ -1,0 +1,51 @@
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div
+    class="card shadow rounded"
+    style="background-color: #f8f9fa; width: 100%; max-width: 400px"
+  >
+    <div class="card-body">
+      <h2 class="text-center my-4">Welcome</h2>
+      <form (ngSubmit)="onLogin()" #loginForm="ngForm">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            class="form-control"
+            [(ngModel)]="email"
+            name="email"
+            required
+          />
+        </div>
+        <div class="form-group mt-3">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            class="form-control"
+            [(ngModel)]="password"
+            name="password"
+            required
+          />
+        </div>
+        <div class="form-check mt-3">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            [(ngModel)]="rememberMe"
+            name="rememberMe"
+            id="rememberMe"
+          />
+          <label class="form-check-label" for="rememberMe">Remember Me</label>
+        </div>
+        <button
+          type="submit"
+          class="btn btn-primary my-4 w-100"
+          [disabled]="!loginForm.form.valid"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

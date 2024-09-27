@@ -1,3 +1,23 @@
+# Angular + PHP MongoDB Authentication App
+
+This is a simple authentication application built with Angular as the frontend and PHP with MongoDB as the backend.
+
+## Requirements
+
+- Node.js (for running Angular)
+- PHP (version 7.2 or above)
+- MongoDB (you can use MongoDB Atlas or a local instance)
+- Composer (PHP dependency manager)
+
+## Installation
+
+### 1. Frontend Setup (Angular)
+
+1. Navigate to the Angular app directory:
+   ```bash
+   cd angular-frontend
+   ```
+
 # UserLoginApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.

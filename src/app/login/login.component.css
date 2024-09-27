@@ -1,0 +1,11 @@
+body {
+  background-color: #e9ecef;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  font-weight: bold;
+}
