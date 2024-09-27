@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/375df72d-05cd-455d-a1db-dab4456acea5)
+
+
 # Angular + PHP MongoDB Authentication App
 
 This is a simple authentication application built with Angular as the frontend and PHP with MongoDB as the backend.
